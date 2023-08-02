@@ -48,22 +48,31 @@
   
   fieldset {
     margin-bottom: 20px;
-    
+   
+ 
   }
   
   legend {
     font-weight: bold;
+    
   }
   
-  label {
+ 
+  label,
+  input {
     display: block;
+    width: 100%;
+    box-sizing: border-box;
     margin-bottom: 5px;
+  
   }
   
   input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
    
   }
   
@@ -74,6 +83,8 @@
     padding: 10px 20px;
     cursor: pointer;
     font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   a {
