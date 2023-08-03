@@ -15,10 +15,19 @@ h1{
     text-align: center;
     margin-right: 220px;
 }
+
+footer{
+    text-decoration: nome; 
+    color:  #ebe5e9;
+    font-size: 20px;
+    margin-right: 800px;
  
+    
+   
+} 
  a{
         text-decoration: nome; 
-        color: rgb(4, 19, 149);
+        color: rgba(243, 233, 233, 0.991);
         font-size: 20px;    
     } 
 
@@ -30,18 +39,21 @@ h1{
 }
 
 .carousel-container {
-    
-   
-display: flex;
+    display: flex;
     transition: transform 0.3s ease-in-out;
 }
 
-.carousel img {
+.carousel,
+ img {
     width: 30%;
     height: auto;
     margin-bottom: 1px;
-
    
 }
 
- 
+.class button {
+    align-items: center;
+    display: flex;
+    margin: left;
+    margin-top: 0.5px;
+}

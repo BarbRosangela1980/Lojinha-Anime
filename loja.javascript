@@ -1,4 +1,4 @@
-// Carrossel
+// Carousel
 
 let currentIndex = 0;
 const carouselContainer = document.querySelector('.carousel-container');
